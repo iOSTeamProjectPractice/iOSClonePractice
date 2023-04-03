@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct AuthToken: Codable {
+    let key: String
+    let user: User
+}
